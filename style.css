@@ -19,17 +19,17 @@
 .gallery
 {
     display: flex;
-    text-align: center;
+    text-align: ;
 }
 
 .gallery-item
 {
     max-width: 20%;
+    justify-content: center;
 }
 
 .presentation
 {
-    padding-inline: 5%;
     color: white;
 }
 
@@ -86,4 +86,12 @@ main
 p
 {
     color: #2a3c46;
+}
+
+hgroup
+{
+    
+    padding-inline: 5%;
+    justify-content: center;
+    background-color: #1bd79e;
 }
