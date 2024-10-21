@@ -15,6 +15,11 @@ main
     color: white;
 }
 
+#title
+{
+    font-weight: 100;
+}
+
 #socials
 {
     background-color: #041821;
