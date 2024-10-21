@@ -1,21 +1,11 @@
-.image-types
+body
 {
-    text-align: center;
+    background-color: #041821;
 }
 
-.gallery
+main
 {
-    display: grid;
-    grid-auto-columns: auto auto auto auto;
-    grid-auto-rows: auto auto auto auto;
-    background-color: bisque;
-    justify-content: center;
-
-}
-
-.pictures
-{
-    max-width: 20%;
+    font-family: 'Yeseva One';
 }
 
 .intro
@@ -71,6 +61,11 @@
     color: white;
 }
 
+.image-types
+{
+    text-align: center;
+}
+
 button
 {
     color: white;
@@ -85,14 +80,30 @@ button
     background-color: #1bd79e;
 }
 
-body
+.gallery
 {
-    background-color: #041821;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    margin: auto;
+    width: 79vw;
+    height: auto;
+    column-gap: 6px;
+    row-gap: 2px;
+    
 }
 
-main
+.picture
 {
-    font-family: 'Yeseva One';
+    width: 100%;
+    height: auto;
+
+}
+
+.picture img
+{
+    width: 100%;
 }
 
 footer
