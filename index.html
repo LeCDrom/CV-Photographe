@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Je Suis Photographe d'Art</title>
     <script src="https://kit.fontawesome.com/208b9051bf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One:regular" rel="stylesheet" />
 </head>
 
 <body>
     <main>
-        <h2>Solène Avril</h2>
-        <button>Facebook</button>
-        <i class="fa-brands fa-facebook"></i>
-        <button>Instagram</button>
-        <i class="fa-brands fa-instagram"></i>
-        <button>LinkedIn</button>
-        <i class="fa-brands fa-linkedin"></i>
-        <button>Theme</button>
-        <i class="fa-solid fa-circle-half-stroke"></i>
-        <hr class="solid">
-        <hgroup>
+        <div class="intro">
+            <h2 id="title">Solène Avril</h2>
+            <span id="socials">
+                <span class="fa-brands fa-facebook"></span>
+                <span class="fa-brands fa-instagram"></span>
+                <span class="fa-brands fa-linkedin"></span>
+                <span class="fa-solid fa-circle-half-stroke"></span>
+            </span>
+        </div>
+        <hr id="separator">
+        <hgroup class="presentation">
             <h1>
                 Hello, <br>
                 Je suis photographe d'art, <br>
-                créative et engagée.
+                <span style="color:#1bd79e">créative et engagée.</span>
             </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -33,33 +34,33 @@
                 Fusce fringilla purus et sapien euismod ullamcorper.
                 In lorem tellus, sollicitudin in feugiat sed, sodales vel leo.
             </p>
-        </hgroup>
-        <section class="image-types">
-            <button>Nature</button>
-            <button>Portrait</button>
-            <button>Art</button>
-            <button>Urbain</button>
-            <button>Animaux</button>
-        </section>
-        <br>
-        <div class="gallery">
-            <div class="image-items">
-                <img src="https://picsum.photos/200?random=1" alt="Random Image 1">
-                <img src="https://picsum.photos/200?random=2" alt="Random Image 2">
-                <img src="https://picsum.photos/200?random=3" alt="Random Image 3">
-                <img src="https://picsum.photos/200?random=4" alt="Random Image 4">
-                <img src="https://picsum.photos/200?random=5" alt="Random Image 5">
-                <img src="https://picsum.photos/200?random=6" alt="Random Image 6">
-                <img src="https://picsum.photos/200?random=7" alt="Random Image 7">
-                <img src="https://picsum.photos/200?random=8" alt="Random Image 8">
-                <img src="https://picsum.photos/200?random=9" alt="Random Image 9">
-                <img src="https://picsum.photos/200?random=10" alt="Random Image 10">
-                <img src="https://picsum.photos/200?random=11" alt="Random Image 11">
-                <img src="https://picsum.photos/200?random=12" alt="Random Image 12">
-                <img src="https://picsum.photos/200?random=13" alt="Random Image 13">
-                <img src="https://picsum.photos/200?random=14" alt="Random Image 14">
-                <img src="https://picsum.photos/200?random=15" alt="Random Image 15">
+            <section class="image-types">
+                <button>NATURE</button>
+                <button class="portrait">PORTRAIT</button>
+                <button>ART</button>
+                <button>URBAIN</button>
+                <button>ANIMAUX</button>
+            </section>
+            <br>
+            <div class="gallery">
+                <div class="image-items">
+                    <img src="https://picsum.photos/1500?random=1" alt="Random Image 1" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=2" alt="Random Image 2" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=3" alt="Random Image 3" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=4" alt="Random Image 4" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=5" alt="Random Image 5" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=6" alt="Random Image 6" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=7" alt="Random Image 7" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=8" alt="Random Image 8" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=9" alt="Random Image 9" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=10" alt="Random Image 10" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=11" alt="Random Image 11" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=12" alt="Random Image 12" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=13" alt="Random Image 13" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=14" alt="Random Image 14" class="gallery-item">
+                    <img src="https://picsum.photos/1500?random=15" alt="Random Image 15" class="gallery-item">
+                </div>
             </div>
-        </div>
+        </hgroup>
     </main>
 </body>

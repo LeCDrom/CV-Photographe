@@ -6,8 +6,84 @@
     grid-gap: 5px;
 }
 
+.image-types
+{
+    text-align: center;
+}
+
+#separator
+{
+    border: 1px solid #2a3c46;
+}
+
 .gallery
 {
     display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+.gallery-item
+{
+    max-width: 20%;
+}
+
+.presentation
+{
+    padding-inline: 5%;
+    color: white;
+}
+
+.intro
+{
+    display: flex;
+    align-items: center;
+}
+
+#title
+{
+    margin-left: 1%;
+    color: white;
+}
+
+#socials
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    right: 1%;
+}
+
+#socials span
+{
+    margin: 0 10px
+}
+
+button
+{
+    color: white;
+    background-color: #041821;
+    border: none;
+    margin: 1%;
+    height: 30px;
+}
+
+.portrait
+{
+    background-color: #1bd79e;
+}
+
+body
+{
+    background-color: #041821;
+}
+
+main
+{
+    font-family: 'Yeseva One';
+}
+
+p
+{
+    color: #2a3c46;
 }
