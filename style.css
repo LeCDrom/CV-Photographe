@@ -1,62 +1,74 @@
-.image_items
-{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 5px;
-}
-
 .image-types
 {
     text-align: center;
 }
 
-#separator
-{
-    border: 1px solid #2a3c46;
-}
-
 .gallery
 {
-    display: flex;
-    text-align: ;
+    display: grid;
+    grid-auto-columns: auto auto auto auto;
+    grid-auto-rows: auto auto auto auto;
+    background-color: bisque;
+    justify-content: center;
+
 }
 
-.gallery-item
+.pictures
 {
     max-width: 20%;
-    justify-content: center;
-}
-
-.presentation
-{
-    color: white;
 }
 
 .intro
 {
     display: flex;
     align-items: center;
-}
-
-#title
-{
-    margin-left: 1%;
     color: white;
+    font-family: 'Monserrat';
 }
 
 #socials
 {
-    display: flex;
-    align-items: center;
-    background-color: white;
+    background-color: #041821;
     position: absolute;
     right: 1%;
 }
 
 #socials span
 {
-    margin: 0 10px
+    margin-inline: 0 10px;
+}
+
+#separator
+{
+    border: 1px solid #334752;
+}
+
+.content
+{    
+    display: flex;
+    flex-direction: column;
+}
+
+#whoami
+{
+    font-size: 250%;
+    color: white;
+    padding-inline: 10%;
+}
+
+#lorem-ipsum
+{
+    font-family: 'Calibri';
+    padding-inline: 10%;
+    padding-right: 48%;
+    color: #666f6d;
+}
+
+
+#title
+{
+    margin-left: 1%;
+    color: white;
 }
 
 button
@@ -65,7 +77,7 @@ button
     background-color: #041821;
     border: none;
     margin: 1%;
-    height: 30px;
+    height: 25px;
 }
 
 .portrait
@@ -83,15 +95,22 @@ main
     font-family: 'Yeseva One';
 }
 
-p
+footer
 {
-    color: #2a3c46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: flex-end;
+    color: #666f6d;
 }
 
-hgroup
+#copyright
 {
-    
-    padding-inline: 5%;
-    justify-content: center;
-    background-color: #1bd79e;
+
+}
+
+#course
+{
+    font-size: 80%;
 }
