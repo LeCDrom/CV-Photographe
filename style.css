@@ -18,6 +18,11 @@ main
     top: 0;
 }
 
+.green
+{
+    color: #1bd79e;
+}
+
 #title
 {
     font-weight: 100;
