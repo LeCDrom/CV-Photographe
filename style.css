@@ -62,7 +62,7 @@ main
 {
     font-family: 'Calibri';
     padding-inline: 10%;
-    padding-right: 48%;
+    margin-right: 39%;
     color: #666f6d;
 }
 
@@ -128,6 +128,7 @@ footer
     height: 100px;
     justify-content: flex-end;
     color: #666f6d;
+    font-family: 'Calibri';
 }
 
 #copyright
