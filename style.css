@@ -5,6 +5,7 @@
         grid-template-rows: repeat(4, 1fr);
         column-gap: 6px;
         row-gap: 2px;
+        max-width: 79vw;
     }
 
     #socials {
@@ -29,9 +30,11 @@
     #whoami {
         font-size: 230%;
         margin-right: 45%;
+        padding-inline: 10%;
     }
 
     #lorem-ipsum {
+        padding-inline: 10%;
         margin-right: 39%;
         font-size: 100%;
     }
@@ -60,6 +63,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
         column-gap: 4px;
+        max-width: 79vw;
     }
 
     #socials {
@@ -84,9 +88,11 @@
     #whoami {
         font-size: 175%;
         margin-right: 40%;
+        padding-inline: 10%;
     }
 
     #lorem-ipsum {
+        padding-inline: 10%;
         margin-right: 38%;
         font-size: 75%;
     }
@@ -115,6 +121,7 @@
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
         column-gap: 4px;
+        max-width: 79vw;
     }
 
     #socials {
@@ -139,9 +146,11 @@
     #whoami {
         font-size: 200%;
         margin-right: 10%;
+        padding-inline: 10%;
     }
 
     #lorem-ipsum {
+        padding-inline: 10%;
         margin-right: 30%;
         font-size: 85%;
     }
@@ -170,6 +179,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         column-gap: 4px;
+        max-width: 92vw;
     }
 
     .picture:nth-child(n+10) {
@@ -194,9 +204,20 @@
         font-size: 120%;
     }
 
+    #whoami {
+        font-size: 200%;
+        margin-right: 10%;
+        padding-inline: 2%;
+    }
+
+    #lorem-ipsum {
+        padding-inline: 2%;
+        font-size: 100%;
+    }
+
     button {
-        font-size: 47%;
-        height: 20px;
+        font-size: 35%;
+        height: 15px;
     }
 
     footer {
@@ -204,11 +225,11 @@
     }
 
     #copyright {
-        font-size: 75%;
+        font-size: 70%;
     }
 
     #course-title {
-        font-size: 80%;
+        font-size: 75%;
     }
 }
 
@@ -256,13 +277,11 @@ main
 #whoami
 {
     color: white;
-    padding-inline: 10%;
 }
 
 #lorem-ipsum
 {
     font-family: 'Calibri';
-    padding-inline: 10%;
     color: #718289;
 }
 
@@ -297,7 +316,6 @@ button
 {
     display: grid;
     margin: 0 auto;
-    max-width: 79vw;
 }
 
 .picture
