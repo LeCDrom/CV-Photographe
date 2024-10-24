@@ -7,6 +7,21 @@
         row-gap: 2px;
     }
 
+    #socials {
+        background-color: none;
+        position: absolute;
+        right: 1%;
+    }
+    
+    #socials span {
+        margin-inline: 0 10px;
+    }
+
+    .intro {
+        flex-direction: row;
+        height: 5vh;
+    }
+
     #title {
         font-size: 130%;
     }
@@ -40,11 +55,26 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Common Laptop layout */
+    /* Laptop layout */
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
         column-gap: 4px;
+    }
+
+    #socials {
+        background-color: none;
+        position: absolute;
+        right: 1%;
+    }
+    
+    #socials span {
+        margin-inline: 0 10px;
+    }
+
+    .intro {
+        flex-direction: row;
+        height: 5vh;
     }
 
     #title {
@@ -87,6 +117,21 @@
         column-gap: 4px;
     }
 
+    #socials {
+        background-color: none;
+        position: absolute;
+        right: 1%;
+    }
+    
+    #socials span {
+        margin-inline: 0 10px;
+    }
+
+    .intro {
+        flex-direction: row;
+        height: 5vh;
+    }
+
     #title {
         font-size: 100%;
     }
@@ -120,13 +165,50 @@
 }
 
 @media (max-width: 425px) {
+    /* Mobile layout */
     .gallery {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        column-gap: 4px;
     }
 
     .picture:nth-child(n+10) {
         display: none;
+    }
+
+    .intro {
+        flex-direction: column;
+        padding-bottom: 1%;
+    }
+    
+    #socials {
+        width: auto;
+    }
+
+    #socials span {
+        margin-inline: 5px;
+        margin-bottom: 15%;
+    }
+
+    #title {
+        font-size: 120%;
+    }
+
+    button {
+        font-size: 47%;
+        height: 20px;
+    }
+
+    footer {
+        padding-top: 2%;
+    }
+
+    #copyright {
+        font-size: 75%;
+    }
+
+    #course-title {
+        font-size: 80%;
     }
 }
 
@@ -148,7 +230,6 @@ main
     background-color: #041821;
     position: sticky;
     top: 0;
-    height: 5vh;
 }
 
 .green
@@ -161,21 +242,9 @@ main
     font-weight: 100;
 }
 
-#socials
-{
-    background-color: none;
-    position: absolute;
-    right: 1%;
-}
-
-#socials span
-{
-    margin-inline: 0 10px;
-}
-
 #separator
 {
-    border: 1px solid #334752;
+    border: 0.5px solid #546a77;
 }
 
 .content
