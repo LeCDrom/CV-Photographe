@@ -3,6 +3,8 @@
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        column-gap: 6px;
+        row-gap: 2px;
     }
 
     #title {
@@ -42,6 +44,7 @@
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        column-gap: 4px;
     }
 
     #title {
@@ -77,13 +80,42 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet layout */
     .gallery {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        column-gap: 4px;
+    }
+
+    #title {
+        font-size: 85%;
     }
 
     #whoami {
-        margin-right: 10%;
+        font-size: 150%;
+        margin-right: 40%;
+    }
+
+    #lorem-ipsum {
+        margin-right: 38%;
+        font-size: 75%;
+    }
+
+    button {
+        font-size: 75%;
+        height: 25px;
+    }
+
+    footer {
+        padding-top: 2%;
+    }
+
+    #copyright {
+        font-size: 75%;
+    }
+
+    #course-title {
+        font-size: 80%;
     }
 }
 
@@ -197,8 +229,6 @@ button
     display: grid;
     margin: 0 auto;
     max-width: 79vw;
-    column-gap: 6px;
-    row-gap: 2px;
 }
 
 .picture
