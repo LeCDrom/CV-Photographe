@@ -117,8 +117,8 @@
     .gallery {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        row-gap: 0.8%;
-        column-gap: 0.5%;
+        row-gap: 1.1%;
+        column-gap: 0.7%;
         max-width: 79vw;
     }
 
@@ -175,7 +175,7 @@
     .gallery {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 1%;
+        gap: 2%;
         max-width: 92vw;
     }
 
@@ -265,7 +265,7 @@ main
 
 #separator
 {
-    border: 0.5px solid #546a77;
+    border: 0.5px solid #5c6b71;
 }
 
 .content
@@ -282,7 +282,7 @@ main
 #lorem-ipsum
 {
     font-family: 'Calibri';
-    color: #718289;
+    color: #5c6b71;
 }
 
 
@@ -334,7 +334,7 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: #718289;
+    color: #5c6b71;
     font-family: 'Calibri';
     text-align: center;
 }
