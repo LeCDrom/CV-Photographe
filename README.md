@@ -10,7 +10,7 @@ Ce projet consiste en un site web en HTML et CSS de type portfolio pour présent
 - Implémentation d'icônes Font Awesome
 
 ## GitHub Pages
-Le site est hébergé via GitHub Pages, accessible à l'adresse suivante : [LIEN]
+Le site est hébergé via GitHub Pages, accessible à l'adresse suivante : https://lecdrom.github.io/Projet-Fil-Rouge/
 
 ## Auteur du projet
 **Côme Dairin**  
