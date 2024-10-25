@@ -6,6 +6,8 @@ Ce projet consiste en un site web en HTML et CSS de type portfolio pour présent
 ## Langages et Technologies Utilisés
 - **HTML** : pour la structure et le contenu du site web
 - **CSS** : pour la mise en forme, incluant les styles responsives
+- Implémentation de polices Google Fonts
+- Implémentation d'icônes Font Awesome
 
 ## GitHub Pages
 Le site est hébergé via GitHub Pages, accessible à l'adresse suivante : [LIEN]
