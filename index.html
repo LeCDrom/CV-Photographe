@@ -2,18 +2,22 @@
 <html lang="fr">
 
 <head>
+    <!-- Meta information and CSS linking -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Je Suis Photographe d'Art</title>
+    <!-- External fonts and icons -->
     <script src="https://kit.fontawesome.com/208b9051bf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Yeseva+One:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One:regular" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular" rel="stylesheet">
 </head>
 
 <body>
     <main>
-        <div class="intro">
+        
+        <!-- Intro section with name and social links -->
+        <section class="intro">
             <h3 id="title">SOLÈNE AVRIL<span class="green">.</span></h3>
             <nav id="socials">
                 <span class="fa-brands fa-facebook" style="color: white"></span>
@@ -21,8 +25,10 @@
                 <span class="fa-brands fa-linkedin" style="color: white"></span>
                 <span class="fa-solid fa-circle-half-stroke" style="color: white"></span>
             </nav>
-        </div>
+        </section>
+        
         <hr id="separator">
+        
         <section class="content">
             <h1 id="whoami">
                 Hello, <br>
@@ -36,14 +42,16 @@
                 In lorem tellus, sollicitudin in feugiat sed, sodales vel leo.
             </span>
             <br>
+            <!-- Photo category buttons -->
             <nav class="specialties">
                 <button class="picture-types-buttons">NATURE</button>
-                <button class="portrait picture-types-buttons">PORTRAIT</button>
+                <button id="portrait-button" class="picture-types-buttons">PORTRAIT</button>
                 <button class="picture-types-buttons">ART</button>
                 <button class="picture-types-buttons">URBAIN</button>
                 <button class="picture-types-buttons">ANIMAUX</button>
             </nav>
             <br>
+            <!-- Photo gallery -->
             <div class="gallery">
                 <img src="https://picsum.photos/seed/aza/1500" class="picture" alt="Random picture">
                 <img src="https://picsum.photos/seed/azaert/1500" class="picture" alt="Random picture">
@@ -65,7 +73,8 @@
     </main>
 
     <br>
-
+    
+    <!-- Footer section -->
     <footer>
         <span id="copyright">©2024 SOLÈNE AVRIL <br>
         <span id="course-title">Exercice HTML - CSS</span></span>

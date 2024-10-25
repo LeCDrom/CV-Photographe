@@ -1,5 +1,8 @@
+/* Media queries for responsive layouts */
+
+/* Large laptop layout */
 @media (min-width: 1024px) {
-    /* L Laptop layout */
+    /* 4 by 4 grid (15 pictures) */
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -55,8 +58,9 @@
     }
 }
 
+/* Laptop layout */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Laptop layout */
+    /* 4 by 4 grid (15 pictures) */
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -112,8 +116,9 @@
     }
 }
 
+/* Tablet layout */
 @media (min-width: 426px) and (max-width: 768px) {
-    /* Tablet layout */
+    /* 3 by 5 grid (15 pictures) */
     .gallery {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -170,8 +175,9 @@
     }
 }
 
+/* Mobile layout */
 @media (max-width: 425px) {
-    /* Mobile layout */
+    /* 3 by 3 grid */
     .gallery {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -179,6 +185,7 @@
         max-width: 92vw;
     }
 
+    /* Show 9 pictures */
     .picture:nth-child(n+10) {
         display: none;
     }
@@ -217,7 +224,6 @@
         height: 15px;
         padding-right: 1%;
         padding-left: 1.8%;
-        padding-bottom: -0.5%;
     }
 
     footer {
@@ -233,6 +239,7 @@
     }
 }
 
+/* Global styles */
 body
 {
     background-color: #041821;
@@ -253,6 +260,7 @@ main
     top: 0;
 }
 
+/* Title styling */
 .green
 {
     color: #1bd79e;
@@ -281,7 +289,7 @@ main
 
 #lorem-ipsum
 {
-    font-family: 'Calibri';
+    font-family: "Calibri", regular;
     color: #5c6b71;
 }
 
@@ -307,11 +315,12 @@ main
     letter-spacing: .2rem;
 }
 
-.portrait
+#portrait-button
 {
     background-color: #1bd79e;
 }
 
+/* Gallery styling */
 .gallery
 {
     display: grid;
@@ -329,12 +338,13 @@ main
     width: 100%;
 }
 
+/* Footer styling */
 footer
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: #5c6b71;
-    font-family: 'Calibri';
+    font-family: "Calibri", regular;
     text-align: center;
 }
