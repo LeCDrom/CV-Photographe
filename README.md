@@ -1,7 +1,7 @@
 # Projet : Exercice de reproduction d'une page web
 
 ## Description
-Ce projet consiste en un site web en HTML et CSS de type portfolio pour présenter les œuvres d'un photographe d'art fictive. Il propose une galerie de photos, des catégories de photographie (nature, portrait, art, urbain, animaux), et des liens vers les réseaux sociaux.
+Ce projet consiste en un site web en HTML et CSS de type portfolio pour présenter les œuvres d'un photographe d'art fictive. Il contient une galerie de photos, des catégories de photographie (nature, portrait, art, urbain, animaux), et des liens vers les réseaux sociaux.
 
 ## Langages et Technologies Utilisés
 - **HTML** : pour la structure et le contenu du site web
