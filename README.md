@@ -14,6 +14,7 @@ Le site est hébergé via GitHub Pages, accessible à l'adresse suivante : https
 
 ## Auteur du projet
 **Côme Dairin** - Étudiant BUT Réseaux & Télécoms à l'IUT de Caen
+
 *Exercice HTML - CSS*
 
 ---
